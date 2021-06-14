@@ -7,6 +7,7 @@ $currentPage = 'home';
 <?php 
 //Main content
 ob_start(); ?>
+
 <div class="container-fluid px-2 max-vh-100">
 
     <div class="row justify-content-md-center">
@@ -121,8 +122,6 @@ ob_start(); ?>
 //Page Specific Scripts
 ob_start(); ?>
 <script type="text/javascript">
-
-var myModal = document.getElementById('exampleModal');
 
 function heartP(elt){
 	d = {

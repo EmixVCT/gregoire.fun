@@ -20,10 +20,9 @@
 
         
     </head>
-        
-    <body>
-
-    	<?= require('view/header.php'); ?>
+	<body>
+	
+    	<?php require('view/header.php'); ?>
 		
     	<div class="container-fluid vh-100">
         	<?= $content ?>

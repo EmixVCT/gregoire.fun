@@ -46,7 +46,6 @@ function pageHome(){
 	$produits = getProduit();
 	
 	//debug($menu);
-	
     require('view/homeView.php');
 }
 
@@ -97,8 +96,7 @@ function pageLogout() {
  }
  
 function addProduct($values){
-	echo "addProduct";
-	debug($values);
+
 	
 	if (empty($values["stock"])){
 		$values["stock"] = 0;
