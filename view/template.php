@@ -35,7 +35,7 @@
 				<?= ((isset($_SESSION["nom"])) ? '<li class="pe-2"><a class="text-danger" href="/logout"><i class="fas fa-sign-out-alt"></i></a></li>' : '') ?>
 				
 				<?= ((isset($_SESSION["nom"])) ? '<li class="pe-2"><a class="text-danger" href data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="far fa-edit"></i></a></li>' : '') ?>
-				<li>©BeerAdvisor v0.1.2 <i>Copyright 2021</i>, Made with 🍺 by <a class="text-danger" href="https://maximevincent.fr">Emix</a></li>
+				<li>©BeerAdvisor v0.1, Made with 🍺 by <a class="text-danger" href="https://maximevincent.fr">Emix</a></li>
 			</ul>
 		</footer>
     </body>
