@@ -12,14 +12,12 @@ ob_start(); ?>
     <div class="row justify-content-md-center">
         
 		
-		<div class="col-12 mt-5 text-center" id="panel-recherche">
-            <img style="max-height: 100px;max-width: 600px;height: 75px;" class="img-fluid text-center mb-1" src="/public/images/logo.png" />
-            <form action="/projets" method="POST">
-            
+		<div class="col-12 mt-5 text-center d-none d-sm-block" id="panel-recherche">
+            <img style="max-height: 100px;max-width: 100%;height: 75px;" class="img-fluid text-center mb-1" src="/public/images/logo.png" />            
         </div>
 		
         <div class="col-12 mt-3">
-				<h1 class="text-suggestion text-start">à la une</h1>
+				<div class="text-suggestion divider"><span></span><span>à la une</span><span></span></div>
 				<?php foreach($menu as $produit){ 
 					if($produit['favorite'] == 1){ ?>
 					<div class="col px-2  product-container">
@@ -46,7 +44,7 @@ ob_start(); ?>
 					</div>
 				<?php } } ?>
 				
-				<h1  class="text-suggestion text-start">menu</h1>	
+				<div class="text-suggestion divider"><span></span><span>Menu</span><span></span></div>
               <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-2 g-lg-3 justify-content-center mb-5">
 					<?php foreach($menu as $produit){ ?>
 						<div class="col px-2  product-container">
